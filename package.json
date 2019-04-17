@@ -1,0 +1,34 @@
+{
+  "name": "spring-festival",
+  "version": "1.0.0",
+  "description": "",
+  "author": "taihe",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "dev": "flow start",
+    "prod": "flow build"
+  },
+  "dependencies": {
+    "@local/flow-axios": "1.1.5",
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+    "@local/flow-build": "^0.7.1",
+    "@local/flow-ftp-hook": "^1.1.1",
+    "@local/flow-vue-hook": "^1.1.4",
+    "@local/flow-wechat": "^1.0.3",
+    "@local/thm-ui": "^0.5.5",
+    "babel-eslint": "^8.2.5",
+    "babel-plugin-component": "^0.11.0",
+    "babel-polyfill": "^6.26.0",
+    "cross-env": "^5.1.3",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-vue": "^4.5.0",
+    "faker": "^4.1.0",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-template-compiler": "^2.5.13"
+  }
+}
